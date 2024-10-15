@@ -10,10 +10,14 @@
 
 1. run setup.ipynb (may not work: update list: `!pip freeze > pip_requirements.txt`)
 
-1. run attribute_embeddings.ipynb. At this time, you should see the 4 files below under `data/`:![alt text](image.png)
+1. run attribute_embeddings.ipynb.
+
+1. run preprocessing.ipynb. At this time, you should see the 4 files below under `data/`:![alt text](image.png)
 
 ## usage
 
 1. Use `np.load('data/artist_embeddings.npy')` to load artist embeddings and tag embeddings
 
 1. Use song_lyrics_en.csv whenever you want to use the dataset.
+
+1. Use song_lyrics_en.csv ['song_document'] when you want to use the song document.
